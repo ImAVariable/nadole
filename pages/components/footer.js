@@ -54,6 +54,12 @@ const Footer = () => {
       <Link href="https://gh.linkedin.com/in/theodora-abaka-acquaah-923b15196"><a className="ml-3 text-slate-300"><FontAwesomeIcon icon={faLinkedin} className="text-gray-300 text-lg ml-2 "></FontAwesomeIcon></a></Link>
 
       </li>
+      <li>
+      <svg xmlns="http://www.w3.org/2000/svg" className="ml-4 h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+  <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+</svg>
+
+      </li>
       
     </ul>
     <span className="text-md  md:text-center "><span>&copy; </span><span>{new Date().getFullYear()}. </span> All Rights Reserved. <span className='md:px-2 '>&#124;</span> <a   className="hover:underline"><span>Naa-Adole Foundation</span><span>&trade;</span></a> </span>
