@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Photobg } from './components/photobg'
+// import sdg from '/assets/images/sdg.png'
 
 const about = () => {
   return (
@@ -12,11 +14,12 @@ const about = () => {
 <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-pink-100">
-      Passion, humanity...<br /> And a Noble Vision., </h1>
-      <p className="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+      Passion, humanity...<br /> And a Noble Vision. </h1>
+      <p className="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-lg dark:text-gray-400">
       Together with our partners, we contribute to health, education, economic, and social development and poverty reduction, which are in line with the policy priorities of the Government of Ghana and the recently launched Sustainable Development Goals (SDGs): Improves health (SDG 3), WASH (SDG 6) and, end hunger/ more jobs (SDGs 2 and 8).</p>
+      <div className="">
       <Link href="/volunteer">
-        <a className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+        <a className=" inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
         Volunteer
         <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
         </svg>
@@ -27,13 +30,50 @@ const about = () => {
         Talk to us
       </a>
       </Link>
+      </div>
+
     </div>
-    <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-      <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup" />
+    <div className="block lg:mt-0 lg:col-span-5 lg:flex relative">
+    <Image
+      alt="Naa-Adole foundation on Sustainable Develoment Goals"
+      src='/images/sdg.svg'
+      layout="fill"
+      objectfit='cover'
+    />
     </div>                
   </div>
 </div>
 </section>
+<section >
+<div className="bg-gray-300 dark:bg-gray-800 w-full mx-auto py- p-8 py-10  ">
+  {/* <img src="/icons/rocket.svg" className="h-10 w-10 mb-8 m-auto" /> */}
+  <p className="text-gray-600 dark:text-white w-full md:w-2/3 m-auto text-center text-lg md:text-3xl">
+    <span className="font-extrabold text-pink-500 text-4xl">
+      “
+    </span>
+    To use functional means of empowering young people with vocational and technical skills for career development.    
+    <span className="font-extrabold text-pink-500 text-4xl">
+      ”
+    </span>
+  </p>
+  <div className="flex items-center justify-center mt-8">
+    <a href="#" className="block relative">
+      {/* <img alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-10 w-10 " /> */}
+    </a>
+    <div className="flex ml-2 items-center justify-center">
+      <span className="font-semibold text-pink-500 mr-2 text-lg">
+        Our Mission
+      </span>
+      <span className="text-gray-400 text-xl font-light">
+      &#124;
+      </span>
+      <span className="text-gray-400 text-md ml-2">
+        Naa-Adole Foundation&trade;
+      </span>
+    </div>
+  </div>
+</div>
+  </section>
 <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
 <div className="container mx-auto">
   <div className="container">
@@ -84,6 +124,37 @@ const about = () => {
   </div>
 </div>
 </section>
+<section>
+<div className="bg-white dark:bg-gray-800 w-full mx-auto py- p-8 py-10  ">
+  {/* <img src="/icons/rocket.svg" className="h-10 w-10 mb-8 m-auto" /> */}
+  <p className="text-gray-600 dark:text-white w-full md:w-2/3 m-auto text-center text-lg md:text-3xl">
+    <span className="font-extrabold text-pink-500 text-4xl">
+      “
+    </span>
+    To use functional means of empowering young people with vocational and technical skills for career development.    
+    <span className="font-extrabold text-pink-500 text-4xl">
+      ”
+    </span>
+  </p>
+  <div className="flex items-center justify-center mt-8">
+    <a href="#" className="block relative">
+      {/* <img alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-10 w-10 " /> */}
+    </a>
+    <div className="flex ml-2 items-center justify-center">
+      <span className="font-semibold text-pink-500 mr-2 text-lg">
+        Our Vision
+      </span>
+      <span className="text-gray-400 text-xl font-light">
+      &#124;
+      </span>
+      <span className="text-gray-400 text-md ml-2">
+        Naa-Adole Foundation&trade;
+      </span>
+    </div>
+  </div>
+</div>
+  </section>
+
 
 
    </>

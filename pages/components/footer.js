@@ -11,10 +11,10 @@ const Footer = () => {
     <footer className="text-white p-4  md:p-8 lg:p-10  py-10 bg-gradient-to-r from-slate-900 to-slate-900 px-4 sm:px-6 lg:px-16">
 <div className='md:py-16 md:my-10  md:flex flex-col items-center justify-center'>
 <div className="mx-auto max-w-screen-xl md:text-center ">
-    <a   className="flex md:justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white pt-4">
+    <a   className="flex md:justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white pt-4 ">
 <Logo />
-      Flowbite    
-    </a>
+      Naa-Adole Foundation   
+      </a>
    
 
 
