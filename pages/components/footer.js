@@ -5,10 +5,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBarChart, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter, faInstagram, faLinkedin, faYoutubeSquare, faPinterest } from "@fortawesome/free-brands-svg-icons"
 
+const navFooter = [
+  { name: 'What We Do', href: '/what-we-do' },
+  { name: 'Volunteer', href: '/volunteer' },
+  { name: 'Sitemap', href: '/sitemap' },
+  { name: 'Donate', href: '/donate' },
+  { name: 'Faqs', href: '/faqs' },
+  { name: 'Contact', href: '/Contact' }
+]
 const Footer = () => {
   return (
     <>
-    <footer className="text-white p-4  md:p-8 lg:p-10  py-10 bg-gradient-to-r from-slate-900 to-slate-900 px-4 sm:px-6 lg:px-16">
+    <footer className="relative text-white p-4  md:p-8 lg:p-10  py-10 bg-gradient-to-r from-slate-900 to-slate-900 px-4 sm:px-6 lg:px-16">
 <div className='md:py-16 md:my-10  md:flex flex-col items-center justify-center'>
 <div className="mx-auto max-w-screen-xl md:text-center ">
     <a   className="flex md:justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white pt-4 ">
@@ -19,27 +27,11 @@ const Footer = () => {
 
 
     <ul className="flex flex-wrap md:justify-center items-center mb-6 text-gray-900 dark:text-white my-5 md:my-8 uppercase">
-      <li>
-        <Link href="/about"><a   className="mr-4 hover:underline md:mr-6 ">About</a></Link>
-      </li>
-      <li>
-        <Link href="/volunteer"><a   className="mr-4 hover:underline md:mr-6">Volunteer</a></Link>
-      </li>
-      <li>
-        <Link href="/sitemap.xml"><a   className="mr-4 hover:underline md:mr-6 ">Sitemap</a></Link>
-      </li>
-      <li>
-        <Link href="/privacy"><a   className="mr-4 hover:underline md:mr-6">Privacy</a></Link>
-      </li>
-      <li>
-        <Link href="/donate"><a   className="mr-4 hover:underline md:mr-6">Donate</a></Link>
-      </li>
-      <li>
-        <Link href="/faqs"><a   className="mr-4 hover:underline md:mr-6">FAQs</a></Link>
-      </li>
-      <li>
-        <Link href="/contact"><a   className="mr-4 hover:underline md:mr-6">Contact</a></Link>
-      </li>
+      { navFooter.map(({name, href}) => (
+          <li className="mr-6" key={name}>
+            <Link href={href}><a className="text-gray-900 dark:text-white">{name}</a></Link>
+          </li>
+        )) }
       
     </ul>
     <ul className="flex flex-wrap md:justify-center items-center mb-6 text-gray-900 dark:text-white my-5 md:my-8">

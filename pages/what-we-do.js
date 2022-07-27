@@ -115,7 +115,7 @@ const about = () => {
           We focus our activities on two main sectors: Health and Education. Our cross-cutting programmes include gender, youth, and enabling environment.
 
           </p>
-          <a href="javascript:void(0)" className="inline-flex items-center justify-center rounded-lg bg-primary py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10">
+          <a className="inline-flex items-center justify-center rounded-lg bg-primary py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10">
             Get Started
           </a>
         </div>
