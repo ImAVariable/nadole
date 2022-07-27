@@ -11,7 +11,7 @@ const navElements = [
   { name: 'News', href: '/news' }
 ]
 
-const Navbar = () => {
+export default function Navbar() {
   const router = useRouter();
 
   return (
@@ -61,4 +61,3 @@ const Navbar = () => {
   )
 }
 
-export default Navbar

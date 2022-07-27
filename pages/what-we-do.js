@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Photobg } from './components/photobg'
+import  Photobg  from './components/photobg'
 // import sdg from '/assets/images/sdg.png'
 
 const about = () => {

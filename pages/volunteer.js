@@ -1,5 +1,5 @@
 import React from 'react'
-import { QuoteBlock } from './components/quoteBlock';
+import QuoteBlock  from './components/quoteBlock';
 
 const Volunteer = () => {
   return (

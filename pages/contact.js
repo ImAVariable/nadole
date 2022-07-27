@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBarChart, faPhone} from "@fortawesome/free-solid-svg-icons";
+
 import {
     faFacebookF,
     faTwitter,
@@ -12,7 +13,7 @@ import {
     faPinterest
 } from "@fortawesome/free-brands-svg-icons"
 
-const Contact = () => {
+export default function Contact() {
     return ( 
     <> 
     <section className="">
@@ -26,15 +27,15 @@ const Contact = () => {
                 <span className=" text-pink-500 mr-2 ">info@naa-adole.org</span>
                 and we'll respond as quickly as we can.
             </p>
-
         </div>
     </section> 
-    <section className = '' > <div className='dark:bg-slate-700 block py-16 md:py-32'>
-        <div
-            className='container mx-auto flex flex-wrap justify-center items-center  h-full'>
-            <div
-                className="md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
-                <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl" href>
+
+    <section className = '' > 
+    <div className='dark:bg-slate-700 block py-16 md:py-32'>
+        <div className='container p-5 mx-auto flex flex-col md:flex-row md:justify-center md:items-center  h-full'>
+
+            <div className="my-2 md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
+                <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl">
                     <div className="mt-16 sm:pr-8">
                         <h5 className="text-xl font-bold text-white">Official Address</h5>
                         <p className="mt-2 text-sm text-gray-500">
@@ -46,7 +47,7 @@ const Contact = () => {
                 </a>
             </div>
             <div
-                className="md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
+                className="my-2 md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
                 <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl" href>
                     <div className="mt-16 sm:pr-8">
                         <h5 className="text-xl font-bold text-white">Phone Lines</h5>
@@ -59,8 +60,8 @@ const Contact = () => {
                 </a>
             </div>
             <div
-                className=" md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
-                <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl" href>
+                className="my-2 w-full  md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
+                <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl" >
                     <div className="mt-16 sm:pr-8">
                         <h5 className="text-xl font-bold text-white">Social Media</h5>
                         <p className="mt-2 text-sm text-gray-500 py">
@@ -90,11 +91,17 @@ const Contact = () => {
                     </div>
                 </a>
             </div>
+                        <div className='my-2 object-cover w-full p-4 mx-2  md:w-64 h-60 relative rounded-xl'>
+                              <Image  
+                              src="/images/engage.png"
+                              layout="fill"
+                              objectFit="contain"
+                              alt="connect with Naa-Adole Foundation"
+                              />                              
+                            </div>
         </div>
     </div> 
     </section>
 </>
 )
 }
-
-export default Contact
