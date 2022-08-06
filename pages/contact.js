@@ -23,8 +23,8 @@ export default function Contact() {
             <p
                 className="text-gray-600 dark:text-white w-full md:w-2/3 m-auto text-lg md:text-3xl">
 
-                Questions about your donation or any other general inquiries can be sent to
-                <span className=" text-pink-500 mr-2 ">info@naa-adole.org</span>
+                Questions about your donation or any other general inquiries can be sent to 
+                <span className=" text-pink-500 mr-2 ">{' '}info@naa-adole.org</span>
                 and we'll respond as quickly as we can.
             </p>
         </div>
