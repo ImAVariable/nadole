@@ -5,10 +5,10 @@ import Logo from './logo';
 import { useRouter } from 'next/router';
 
 const navElements = [
-  { name: 'Home', href: '/' },
-  { name: 'What We Do', href: '/what-we-do' },
-  { name: 'Contact', href: '/contact' },
-  { name: 'News', href: '/news' }
+  { name: 'Home', href: '/', active: false },
+  { name: 'What We Do', href: '/what-we-do', active: false  },
+  { name: 'Contact', href: '/contact', active: false  },
+  { name: 'News & Events', href: '/news', active: false  }
 ]
 
 export default function Navbar() {

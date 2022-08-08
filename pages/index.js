@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Mandate from './components/mandate'
 
 export default function Home() {
     return (
-
+<>
         <section className="w-full bg-gray-300 dark:bg-slate-800">
             <div className="w-auto mx-auto md:px-5  py-32">
 
@@ -324,6 +325,9 @@ Health
             </div>
 
         </section>
+        <Mandate />
+</>
+        
 
     )
 }

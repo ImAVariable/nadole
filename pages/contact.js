@@ -18,7 +18,7 @@ export default function Contact() {
     <> 
     <section className="">
         <div
-            className="bg-gray-300 dark:bg-slate-900 w-full mx-auto py- p-8 py-10  text-center py-32">
+            className="bg-gray-300 dark:bg-slate-900 w-full mx-auto p-8  text-center py-32">
 
             <p
                 className="text-gray-600 dark:text-white w-full md:w-2/3 m-auto text-lg md:text-3xl">
