@@ -23,7 +23,7 @@ export default function Contact() {
             <p
                 className="text-gray-600 dark:text-white w-full md:w-2/3 m-auto text-lg md:text-3xl">
 
-                Questions about your donation or any other general inquiries can be sent to 
+                Questions about your donations or any other general inquiries can be sent to 
                 <span className=" text-pink-500 mr-2 ">{' '}info@naa-adole.org</span>
                 and we'll respond as quickly as we can.
             </p>
@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
             <div
                 className="my-2 md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
-                <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl" href>
+                <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl">
                     <div className="mt-16 sm:pr-8">
                         <h5 className="text-xl font-bold text-white">Phone Lines</h5>
                         <p className="mt-2 text-sm text-gray-500">
@@ -60,7 +60,7 @@ export default function Contact() {
                 </a>
             </div>
             <div
-                className="my-2 w-full  md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72 w-auto  ">
+                className="my-2 md:mx-2 p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl md:w-72  ">
                 <a className="block p-6 bg-slate-900 sm:p-8 rounded-xl" >
                     <div className="mt-16 sm:pr-8">
                         <h5 className="text-xl font-bold text-white">Social Media</h5>
