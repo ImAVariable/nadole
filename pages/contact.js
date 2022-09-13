@@ -25,7 +25,7 @@ export default function Contact() {
 
                 Questions about your donations or any other general inquiries can be sent to 
                 <span className=" text-pink-500 mr-2 ">{' '}info@naa-adole.org</span>
-                and we'll respond as quickly as we can.
+                {`and we'll respond as quickly as we can.`}
             </p>
         </div>
     </section> 

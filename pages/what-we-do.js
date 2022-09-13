@@ -127,7 +127,7 @@ const about = () => {
     <span className="font-extrabold text-pink-500 text-4xl">
       “
     </span>
-    To use functional means of empowering young people with vocational and technical skills for career development.    
+    Empowering the younger generation to become responsible adults.    
     <span className="font-extrabold text-pink-500 text-4xl">
       ”
     </span>

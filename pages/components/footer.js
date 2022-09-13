@@ -11,12 +11,13 @@ const navFooter = [
   { name: 'Sitemap', href: '/sitemap' },
   { name: 'Donate', href: '/donate' },
   { name: 'Faqs', href: '/faqs' },
-  { name: 'Contact', href: '/Contact' }
+  { name: 'Contact', href: '/contact' }
 ]
+
 const Footer = () => {
   return (
     <>
-    <footer className="text-slate-500 dark:text-white p-4  md:p-8 lg:p-10  py-10 bg-gray-100 dark:bg-gradient-to-r from-slate-900 to-slate-900 px-4 sm:px-6 lg:px-16">
+    <footer className="text-slate-500 dark:text-white p-4  md:p-8 lg:p-10  py-10 bg-gray-200 dark:bg-gradient-to-r from-slate-900 to-slate-900 px-4 sm:px-6 lg:px-16">
 <div className='md:py-16 md:my-10  md:flex flex-col items-center justify-center'>
 <div className="mx-auto max-w-screen-xl md:text-center ">
     <a   className="flex md:justify-center items-center text-xl font-semibold text-slate-600 dark:text-white pt-4 ">

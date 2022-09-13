@@ -3,7 +3,7 @@ import React from 'react'
 const Mandate = () => {
   return (
     <>
-  <section className="text-gray-600 body-font dark:text-gray-400 body-font dark:bg-gray-900">
+  <section className="text-gray-600 body-font dark:text-gray-400 body-font dark:bg-gray-900 hidden">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
     <h2 className="mt-8 font-semibold text-pink-500 dark:text-pink-400">Who we are

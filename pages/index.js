@@ -5,264 +5,243 @@ import Mandate from './components/mandate'
 
 export default function Home() {
     return (
-<>
-        <section className="w-full bg-gray-300 dark:bg-slate-800">
-            <div className="w-auto mx-auto md:px-5  py-32">
+        <>
+            <section className="w-full bg-gray-300 dark:bg-slate-800">
+                <div className="w-auto mx-auto md:px-5  py-32">
 
-                <div
-                    className='flex flex-col md:flex-row md:justify-between items-center h-full w-auto'>
+                    <div
+                        className='flex flex-col md:flex-row md:justify-between items-center h-full w-auto'>
 
-                    <div>
-                        <div className='  px-4 sm:px-6 md:px-5 mb-6 text-left max-w-3xl '>
+                        <div>
+                            <div className='  px-4 sm:px-6 md:px-5 mb-6 text-left max-w-3xl '>
 
-                            <h2 className="mt-8 font-semibold text-pink-500 dark:text-pink-400">Who we are
-                            </h2>
-                            <p
-                                className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">Why Education, Health
-                                <br/>
-                                and Adolescent Empowerment ?
-                            </p>
-                            <p className="mt-4  space-y-6 dark:text-white text-left   ">With the help of its
-                                extensive network of NGOs, affiliates from business, colleges, and governmental
-                                and intergovernmental organizations, Naa-Adole Foundation has emerged as a
-                                visionary in the fight against pressing global concerns. To That effect, we
-                                welcome partnerships from all concerned.</p>
-                        </div>
+                                <h2 className="mt-8 font-semibold text-pink-500 dark:text-pink-400">Who we are
+                                </h2>
+                                <p
+                                    className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">Why Education, Health
+                                    <br />
+                                    and Adolescent Empowerment ?
+                                </p>
+                                <p className="mt-4  space-y-6 dark:text-white text-left   ">With the help of its
+                                    extensive network of NGOs, affiliates from business, colleges, and governmental
+                                    and intergovernmental organizations, Naa-Adole Foundation has emerged as a
+                                    visionary in the fight against pressing global concerns. To That effect, we
+                                    welcome partnerships from all concerned.</p>
+                            </div>
 
-                        <div className="mx-auto flex justify-start items-center ">
-                            <ul
-                                className="flex-none inline-grid gap-x-2 px-4 sm:px-0 xl:gap-x-6 text-slate-500 "
-                                style={{
-                                gridTemplateColumns: 'repeat(4, minmax(6rem, 1fr))'
-                            }}>
-                                <li>
-                                    <button
-                                        type="button"
-                                        className="group text-sm font-semibold w-full flex flex-col items-center  dark:text-white  ">
-                                       <svg                                             
-                                       className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500" 
-                                       width={48} height={48} viewBox="0 -2.43 64.06 64.06" xmlns="http://www.w3.org/2000/svg">
-  <g id="Group_129" data-name="Group 129" transform="translate(-436.615 -55.295)" >
-    <g id="XMLID_9_">
-      <g id="Group_128" data-name="Group 128">
-        <path style={{ fill: 'white' }}                                                  fill="currentColor"
-                                                fillOpacity={0}
-                                                stroke="#fafafa"
-                                                strokeWidth={2}
-                                                id="Path_64" data-name="Path 64" d="M500.675,83.555v22.47a4.229,4.229,0,0,1-4.22,4.23h-3.27a5.055,5.055,0,0,1-4.98,4.25h-39.12a5.055,5.055,0,0,1-4.98-4.25h-3.27a4.229,4.229,0,0,1-4.22-4.23V83.555a4.227,4.227,0,0,1,4.22-4.22h3.19V68.5a1.993,1.993,0,0,1,2-2h6.92l3.49-6.52a8.876,8.876,0,0,1,7.83-4.69h8.76a8.876,8.876,0,0,1,7.83,4.69l3.49,6.52h6.92a1.993,1.993,0,0,1,2,2v10.83h3.19A4.227,4.227,0,0,1,500.675,83.555Zm-4,22.47V92.505h-3.41v13.75h3.19A.224.224,0,0,0,496.675,106.025Zm0-17.52v-4.95a.222.222,0,0,0-.22-.22h-3.19V88.5Zm-7.41,20.93v-4.3a5.955,5.955,0,0,1-2.04.37h-37.16a5.955,5.955,0,0,1-2.04-.37v4.3a1.063,1.063,0,0,0,1.06,1.07H488.2A1.063,1.063,0,0,0,489.265,109.435Zm0-9.98V70.505h-41.24v28.95a2.044,2.044,0,0,0,2.04,2.05h37.16A2.044,2.044,0,0,0,489.265,99.455ZM479.8,66.5l-2.48-4.63a4.873,4.873,0,0,0-4.3-2.58h-8.76a4.873,4.873,0,0,0-4.3,2.58l-2.48,4.63Zm-35.78,39.75V92.5h-3.41v13.52a.224.224,0,0,0,.22.23Zm0-17.75v-5.17h-3.19a.222.222,0,0,0-.22.22V88.5Z" />
-        <path style={{ fill: 'white' }}  id="Path_65" data-name="Path 65" d="M496.675,92.5v13.52a.224.224,0,0,1-.22.23h-3.19V92.5Z"                                                 fill="currentColor"
-                                                fillOpacity={0}
-                                                stroke="#fafafa"
-                                                strokeWidth={2}/>
-        <path style={{ fill: 'white' }}  id="Path_66" data-name="Path 66" d="M496.675,83.555V88.5h-3.41v-5.17h3.19A.222.222,0,0,1,496.675,83.555Z"                                                 fill="currentColor"
-                                                fillOpacity={0}
-                                                stroke="#fafafa"
-                                                strokeWidth={2}/>
-        <path style={{ fill: 'white' }}  id="Path_67" data-name="Path 67" d="M489.265,105.135v4.3a1.063,1.063,0,0,1-1.06,1.07h-39.12a1.063,1.063,0,0,1-1.06-1.07v-4.3a5.955,5.955,0,0,0,2.04.37h37.16A5.956,5.956,0,0,0,489.265,105.135Z"                                                 fill="currentColor"
-                                                fillOpacity={0}
-                                                stroke="#fafafa"
-                                                strokeWidth={2}/>
+                            <div className="mx-auto flex justify-start items-center ">
+                                <ul
+                                    className="flex-none inline-grid gap-x-2 px-4 sm:px-0 xl:gap-x-6 text-slate-500 "
+                                    style={{
+                                        gridTemplateColumns: 'repeat(4, minmax(6rem, 1fr))'
+                                    }}>
+                                    <li>
+                                        <button
+                                            type="button"
+                                            className="group text-sm font-semibold w-full flex flex-col items-center  dark:text-white  ">
+                                            <svg
+                                                className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500"
+                                                width={48} height={48} viewBox="0 -2.43 64.06 64.06" xmlns="http://www.w3.org/2000/svg">
+                                                <g id="Group_129" data-name="Group 129" transform="translate(-436.615 -55.295)" >
+                                                    <g id="XMLID_9_">
+                                                        <g id="Group_128" data-name="Group 128">
+                                                            <path style={{ fill: 'white' }} fill="currentColor"
+                                                                fillOpacity={0}
+                                                                stroke="#fafafa"
+                                                                strokeWidth={2}
+                                                                id="Path_64" data-name="Path 64" d="M500.675,83.555v22.47a4.229,4.229,0,0,1-4.22,4.23h-3.27a5.055,5.055,0,0,1-4.98,4.25h-39.12a5.055,5.055,0,0,1-4.98-4.25h-3.27a4.229,4.229,0,0,1-4.22-4.23V83.555a4.227,4.227,0,0,1,4.22-4.22h3.19V68.5a1.993,1.993,0,0,1,2-2h6.92l3.49-6.52a8.876,8.876,0,0,1,7.83-4.69h8.76a8.876,8.876,0,0,1,7.83,4.69l3.49,6.52h6.92a1.993,1.993,0,0,1,2,2v10.83h3.19A4.227,4.227,0,0,1,500.675,83.555Zm-4,22.47V92.505h-3.41v13.75h3.19A.224.224,0,0,0,496.675,106.025Zm0-17.52v-4.95a.222.222,0,0,0-.22-.22h-3.19V88.5Zm-7.41,20.93v-4.3a5.955,5.955,0,0,1-2.04.37h-37.16a5.955,5.955,0,0,1-2.04-.37v4.3a1.063,1.063,0,0,0,1.06,1.07H488.2A1.063,1.063,0,0,0,489.265,109.435Zm0-9.98V70.505h-41.24v28.95a2.044,2.044,0,0,0,2.04,2.05h37.16A2.044,2.044,0,0,0,489.265,99.455ZM479.8,66.5l-2.48-4.63a4.873,4.873,0,0,0-4.3-2.58h-8.76a4.873,4.873,0,0,0-4.3,2.58l-2.48,4.63Zm-35.78,39.75V92.5h-3.41v13.52a.224.224,0,0,0,.22.23Zm0-17.75v-5.17h-3.19a.222.222,0,0,0-.22.22V88.5Z" />
+                                                            <path style={{ fill: 'white' }} id="Path_65" data-name="Path 65" d="M496.675,92.5v13.52a.224.224,0,0,1-.22.23h-3.19V92.5Z" fill="currentColor"
+                                                                fillOpacity={0}
+                                                                stroke="#fafafa"
+                                                                strokeWidth={2} />
+                                                            <path style={{ fill: 'white' }} id="Path_66" data-name="Path 66" d="M496.675,83.555V88.5h-3.41v-5.17h3.19A.222.222,0,0,1,496.675,83.555Z" fill="currentColor"
+                                                                fillOpacity={0}
+                                                                stroke="#fafafa"
+                                                                strokeWidth={2} />
+                                                            <path style={{ fill: 'white' }} id="Path_67" data-name="Path 67" d="M489.265,105.135v4.3a1.063,1.063,0,0,1-1.06,1.07h-39.12a1.063,1.063,0,0,1-1.06-1.07v-4.3a5.955,5.955,0,0,0,2.04.37h37.16A5.956,5.956,0,0,0,489.265,105.135Z" fill="currentColor"
+                                                                fillOpacity={0}
+                                                                stroke="#fafafa"
+                                                                strokeWidth={2} />
 
 
-        <path style={{ fill: 'white' }}  id="Path_70" data-name="Path 70" d="M473.985,83.855v4.29H470.8v3.2h-4.3v-3.2H463.3v-4.29h3.19v-3.2h4.3v3.2Z"                                                 fill="currentColor"
-                                                fillOpacity={0}
-                                                stroke="#fafafa"
-                                                strokeWidth={2}/>
-        <path style={{ fill: 'white' }}  id="Path_71" data-name="Path 71" d="M444.025,99.455v6.8h-3.19a.224.224,0,0,1-.22-.23V92.505h3.41Z" fill=""/>
+                                                            <path style={{ fill: 'white' }} id="Path_70" data-name="Path 70" d="M473.985,83.855v4.29H470.8v3.2h-4.3v-3.2H463.3v-4.29h3.19v-3.2h4.3v3.2Z" fill="currentColor"
+                                                                fillOpacity={0}
+                                                                stroke="#fafafa"
+                                                                strokeWidth={2} />
+                                                            <path style={{ fill: 'white' }} id="Path_71" data-name="Path 71" d="M444.025,99.455v6.8h-3.19a.224.224,0,0,1-.22-.23V92.505h3.41Z" fill="" />
 
-      </g>
-    </g>
-  </g>
-</svg>
-Health
-                                    </button>
-                                </li>
-                                <li>
-                                    <button
-                                        type="button"
-                                        className="group text-sm font-semibold w-full flex flex-col items-center  dark:text-white ">
-                                        <svg
-                                            width={48}
-                                            height={48}
-                                            fill="none"
-                                            aria-hidden="true"
-                                            className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500">
-                                            
-                                            <path style={{ fill: 'white' }} 
-                                            d="M17.687 42.22 40.57 29.219a4 4 0 0 0 1.554-5.36L39 18"
-                                            stroke="#fafafa"
-                                            strokeWidth={2}
-                                            strokeLinecap="round"/>
-                                            <path style={{ fill: 'white' }} 
-                                                d="M27.477 7.121a1 1 0 1 0-.954 1.758l.954-1.758Zm5.209 3.966.477-.879-.477.88Zm1.555 5.515-.866-.5-.003.006.87.494ZM26.523 8.88l5.686 3.087.954-1.758-5.686-3.087-.954 1.758Zm6.849 7.23-12.616 22.21 1.738.987 12.617-22.21-1.74-.988Zm-1.163-4.143a3 3 0 0 1 1.166 4.136l1.732 1a5 5 0 0 0-1.944-6.894l-.954 1.758Z"
-                                                fill="currentColor"/>
-                                            <path style={{ fill: 'white' }}  style={{ fill: 'white' }}  
-                                                d="M5 9a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v25a9 9 0 1 1-18 0V9Z"
-                                                fill="#fafafa"
-                                                fillOpacity={0}
-                                                stroke="#fafafa"
-                                                strokeWidth={2}/>
-                                                <circle
-                                                cx={14}
-                                                cy={34}
-                                                r={3}
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Health
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button
+                                            type="button"
+                                            className="group text-sm font-semibold w-full flex flex-col items-center  dark:text-white ">
+                                            <svg
+                                                width={48}
+                                                height={48}
                                                 fill="none"
-                                                stroke="#fafafa"
-                                                strokeWidth={2}
-                                                strokeLinecap="round"/>
-                                        </svg>Empowerment</button>
-                                </li>
-                                <li>
-                                    <button
-                                        type="button"
-                                        className="group text-sm font-semibold w-full flex flex-col items-center   dark:text-white ">
-                                        {/*?xml version="1.0" encoding="iso-8859-1"?*/}
-                                        {/* Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
-                                        <svg
-                                            width={48}
-                                            height={48}
-                                            className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500"
-                                            version="1.1"
-                                            id="Layer_1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                                            x="0px"
-                                            y="0px"
-                                            viewBox="0 0 511.997 511.997"
-                                            style={{
-                                            enableBackground: 'new 0 0 511.997 511.997'
-                                        }}
-                                            xmlSpace="preserve ">
-                                            <path style={{ fill: 'white' }} 
+                                                aria-hidden="true"
+                                                className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500">
+
+                                                <path style={{ fill: 'white' }}
+                                                    d="M17.687 42.22 40.57 29.219a4 4 0 0 0 1.554-5.36L39 18"
+                                                    stroke="#fafafa"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round" />
+                                                <path style={{ fill: 'white' }}
+                                                    d="M27.477 7.121a1 1 0 1 0-.954 1.758l.954-1.758Zm5.209 3.966.477-.879-.477.88Zm1.555 5.515-.866-.5-.003.006.87.494ZM26.523 8.88l5.686 3.087.954-1.758-5.686-3.087-.954 1.758Zm6.849 7.23-12.616 22.21 1.738.987 12.617-22.21-1.74-.988Zm-1.163-4.143a3 3 0 0 1 1.166 4.136l1.732 1a5 5 0 0 0-1.944-6.894l-.954 1.758Z"
+                                                    fill="currentColor" />
+                                                <path style={{ fill: 'white' }}
+                                                    d="M5 9a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v25a9 9 0 1 1-18 0V9Z"
+                                                    fill="#fafafa"
+                                                    fillOpacity={0}
+                                                    stroke="#fafafa"
+                                                    strokeWidth={2} />
+                                                <circle
+                                                    cx={14}
+                                                    cy={34}
+                                                    r={3}
+                                                    fill="none"
+                                                    stroke="#fafafa"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round" />
+                                            </svg>Empowerment</button>
+                                    </li>
+                                    <li>
+                                        <button
+                                            type="button"
+                                            className="group text-sm font-semibold w-full flex flex-col items-center   dark:text-white ">
+                                            {/*?xml version="1.0" encoding="iso-8859-1"?*/}
+                                            {/* Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  */}
+                                            <svg
+                                                width={48}
+                                                height={48}
+                                                className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500"
+                                                version="1.1"
+                                                id="Layer_1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlnsXlink="http://www.w3.org/1999/xlink"
+                                                x="0px"
+                                                y="0px"
+                                                viewBox="0 0 511.997 511.997"
                                                 style={{
-                                                fill: '#fafafa'
-                                            }}
-                                                d="M422.703,509.476H89.293c-27.036,0-49.033-21.996-49.033-49.033V169.637
+                                                    enableBackground: 'new 0 0 511.997 511.997'
+                                                }}
+                                                xmlSpace="preserve ">
+                                                <path style={{ fill: 'white' }}
+                                                    d="M422.703,509.476H89.293c-27.036,0-49.033-21.996-49.033-49.033V169.637
 	c0-7.899,6.403-14.302,14.302-14.302s14.302,6.403,14.302,14.302v290.808c0,11.263,9.164,20.428,20.428,20.428h333.41
 	c11.263,0,20.427-9.164,20.427-20.428V239.096c0-7.899,6.405-14.302,14.302-14.302c7.898,0,14.302,6.403,14.302,14.302v221.348
 	C471.736,487.482,449.741,509.476,422.703,509.476z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                style={{
-                                                fill: '#C9C4E1'
-                                            }}
-                                                d="M487.521,169.635H329.674c-2.699,0-5.286-1.073-7.196-2.981l-59.285-59.285
+                                                <path style={{ fill: 'white' }}
+
+
+                                                    d="M487.521,169.635H329.674c-2.699,0-5.286-1.073-7.196-2.981l-59.285-59.285
 	c-3.973-3.973-10.416-3.973-14.39,0l-59.285,59.285c-1.908,1.908-4.497,2.981-7.196,2.981H24.478
 	c-8.029,0-12.895-8.865-8.584-15.638l84.294-132.462c1.868-2.935,5.106-4.713,8.584-4.713h294.455c3.478,0,6.716,1.778,8.584,4.713
 	l84.294,132.463C500.416,160.772,495.55,169.635,487.521,169.635z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                                                                style={{
-                                                                                                    fill: '#fafafa'
-                                                                                                }}
-                                                d="M487.521,183.939H329.674c-6.536,0-12.683-2.546-17.307-7.168l-56.369-56.369L199.63,176.77
+                                                <path style={{ fill: 'white' }}
+
+                                                    d="M487.521,183.939H329.674c-6.536,0-12.683-2.546-17.307-7.168l-56.369-56.369L199.63,176.77
 	c-4.621,4.623-10.768,7.17-17.309,7.17H24.478c-8.936,0-17.157-4.866-21.456-12.699s-3.992-17.382,0.807-24.92L88.12,13.857
 	c4.517-7.098,12.237-11.336,20.65-11.336h294.453c8.411,0,16.13,4.236,20.65,11.332l84.295,132.467
 	c4.797,7.537,5.107,17.086,0.807,24.919C504.679,179.072,496.457,183.939,487.521,183.939z M331.384,155.335h148.618L400.961,31.127
 	H111.037L31.996,155.335h148.618l58.076-58.076c4.623-4.623,10.77-7.17,17.307-7.17c6.539,0,12.686,2.546,17.309,7.17
 	L331.384,155.335z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                                                        style={{
-                                                                                            fill: '#fafafa'
-                                                                                        }}
-                                                d="M380.333,280.772h-54.874c-8.057,0-14.587-6.53-14.587-14.587V239.79
+                                                <path style={{ fill: 'white' }}
+
+                                                    d="M380.333,280.772h-54.874c-8.057,0-14.587-6.53-14.587-14.587V239.79
 	c0-8.057,6.53-14.587,14.587-14.587h54.874c8.057,0,14.587,6.53,14.587,14.587v26.395
 	C394.92,274.242,388.389,280.772,380.333,280.772z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                style={{
-                                                fill: '#fafafa'
-                                            }}
-                                                d="M380.333,295.075h-54.874c-15.93,0-28.888-12.959-28.888-28.889V239.79
+                                                <path style={{ fill: 'white' }}
+                                                    d="M380.333,295.075h-54.874c-15.93,0-28.888-12.959-28.888-28.889V239.79
 	c0-15.93,12.959-28.889,28.888-28.889h54.874c15.93,0,28.888,12.959,28.888,28.889v26.395
 	C409.222,282.115,396.263,295.075,380.333,295.075z M325.459,239.507c-0.156,0-0.283,0.127-0.283,0.285v26.395
 	c0,0.156,0.127,0.285,0.283,0.285h54.874c0.156,0,0.283-0.127,0.283-0.285v-26.395c0-0.156-0.127-0.285-0.283-0.285H325.459z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                style={{
-                                                fill: '#C9C4E1'
-                                            }}
-                                                d="M186.538,280.772h-54.874c-8.057,0-14.587-6.53-14.587-14.587V239.79
+                                                <path style={{ fill: 'white' }}
+
+                                                    d="M186.538,280.772h-54.874c-8.057,0-14.587-6.53-14.587-14.587V239.79
 	c0-8.057,6.53-14.587,14.587-14.587h54.874c8.057,0,14.587,6.53,14.587,14.587v26.395
 	C201.125,274.242,194.595,280.772,186.538,280.772z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                                                                style={{
-                                                                                                    fill: '#fafafa'
-                                                                                                }}
-                                                d="M186.538,295.075h-54.874c-15.93,0-28.889-12.959-28.889-28.889V239.79
+                                                <path style={{ fill: 'white' }}
+
+                                                    d="M186.538,295.075h-54.874c-15.93,0-28.889-12.959-28.889-28.889V239.79
 	c0-15.93,12.959-28.889,28.889-28.889h54.874c15.93,0,28.889,12.959,28.889,28.889v26.395
 	C215.427,282.115,202.468,295.075,186.538,295.075z M131.664,239.507c-0.156,0-0.285,0.127-0.285,0.285v26.395
 	c0,0.156,0.127,0.285,0.285,0.285h54.874c0.156,0,0.285-0.127,0.285-0.285v-26.395c0-0.156-0.127-0.285-0.285-0.285H131.664z.M380.333,386.022h-54.874c-8.057,0-14.587-6.53-14.587-14.587V345.04
 	c0-8.057,6.53-14.587,14.587-14.587h54.874c8.057,0,14.587,6.53,14.587,14.587v26.395
 	C394.92,379.492,388.389,386.022,380.333,386.022z"/>
-                                            <path style={{ fill: 'white' }} 
-                                                style={{
-                                                fill: '#fafafa'
-                                            }}
-                                                d="M380.333,400.326h-54.874c-15.93,0-28.888-12.961-28.888-28.889v-26.395
+                                                <path style={{ fill: 'white' }}
+
+                                                    d="M380.333,400.326h-54.874c-15.93,0-28.888-12.961-28.888-28.889v-26.395
 	c0-15.93,12.959-28.889,28.888-28.889h54.874c15.93,0,28.888,12.959,28.888,28.889v26.395
 	C409.222,387.365,396.263,400.326,380.333,400.326z M325.459,344.757c-0.156,0-0.283,0.127-0.283,0.285v26.395
 	c0,0.157,0.127,0.285,0.283,0.285h54.874c0.156,0,0.283-0.127,0.283-0.285v-26.395c0-0.156-0.127-0.285-0.283-0.285H325.459z"/>
-                                            <path style={{ fill: 'white' }} 
+                                                <path style={{ fill: 'white' }}
 
-                                                d="M186.538,386.022h-54.874c-8.057,0-14.587-6.53-14.587-14.587V345.04
+                                                    d="M186.538,386.022h-54.874c-8.057,0-14.587-6.53-14.587-14.587V345.04
 	c0-8.057,6.53-14.587,14.587-14.587h54.874c8.057,0,14.587,6.53,14.587,14.587v26.395
 	C201.125,379.492,194.595,386.022,186.538,386.022z"/>
-                                            <g>
-                                                <path style={{ fill: 'white' }} 
-                                                                                  style={{
-                                                                                    fill: '#fafafa'
-                                                                                }}
-                                                    d="M186.538,400.326h-54.874c-15.93,0-28.889-12.961-28.889-28.889v-26.395
+                                                <g>
+                                                    <path style={{ fill: 'white' }}
+
+                                                        d="M186.538,400.326h-54.874c-15.93,0-28.889-12.961-28.889-28.889v-26.395
 		c0-15.93,12.959-28.889,28.889-28.889h54.874c15.93,0,28.889,12.959,28.889,28.889v26.395
 		C215.427,387.365,202.468,400.326,186.538,400.326z M131.664,344.757c-0.156,0-0.285,0.127-0.285,0.285v26.395
 		c0,0.157,0.127,0.285,0.285,0.285h54.874c0.156,0,0.285-0.127,0.285-0.285v-26.395c0-0.156-0.127-0.285-0.285-0.285H131.664z"/>
-        <path style={{ fill: 'white' }}  style={{ fill: 'white' }}  d="M221.269,502.531c-7.899,0-14.302-6.403-14.302-14.302v-39.691
+                                                    <path style={{ fill: 'white' }} d="M221.269,502.531c-7.899,0-14.302-6.403-14.302-14.302v-39.691
 		c0-27.037,21.996-49.033,49.033-49.033c27.037,0,49.033,21.996,49.033,49.033v4.962c0,7.899-6.405,14.302-14.302,14.302
 		c-7.898,0-14.302-6.403-14.302-14.302v-4.962c0-11.265-9.164-20.428-20.428-20.428c-11.263,0-20.428,9.164-20.428,20.428v39.691
 		C235.571,496.128,229.168,502.531,221.269,502.531z"/>
-                                            </g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                        </svg>
-                                        Education</button>
-                                </li>
-                                <li>
+                                                </g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                            </svg>
+                                            Education</button>
+                                    </li>
+                                    <li>
 
-                                    <button
-                                        type="button"
-                                        className="group text-sm font-semibold w-full flex flex-col items-center   dark:text-white ">
+                                        <button
+                                            type="button"
+                                            className="group text-sm font-semibold w-full flex flex-col items-center   dark:text-white ">
 
-                                        <svg
-                                            width={48}
-                                            height={48}
-                                            className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500"
-                                            version="1.1"
-                                            id="Capa_1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                                            x="0px"
-                                            y="0px"
-                                            viewBox="0 0 296.932 296.932"
-                                        //     style={{
-                                        //     enableBackground: 'new 0 0 296.932 296.932'
-                                        // }}
-                                            xmlSpace="preserve">
-                                            <g>
-                                                <path style={{ fill: 'white' }}                                                      
-                                                style={{
-                                                    fill: '#fafafa'
-                                                }}
-                                                    d="M219.018,182.485h-21.594v-21.317c5-6.207,9.179-13.047,12.594-19.91c1.338-0.239,2.764-0.678,4.095-1.314
+                                            <svg
+                                                width={48}
+                                                height={48}
+                                                className="mb-6 text-slate-300 group-hover:text-slate-400 dark:text-slate-200 dark:group-hover:text-slate-500"
+                                                version="1.1"
+                                                id="Capa_1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlnsXlink="http://www.w3.org/1999/xlink"
+                                                x="0px"
+                                                y="0px"
+                                                viewBox="0 0 296.932 296.932"
+                                                //     style={{
+                                                //     enableBackground: 'new 0 0 296.932 296.932'
+                                                // }}
+                                                xmlSpace="preserve">
+                                                <g>
+                                                    <path style={{ fill: 'white' }}
+
+                                                        d="M219.018,182.485h-21.594v-21.317c5-6.207,9.179-13.047,12.594-19.91c1.338-0.239,2.764-0.678,4.095-1.314
 		c6.111-2.919,11.696-10.033,14.871-19.031c3.658-10.368,3.242-20.182-0.812-26.215c0.541-11.2,0.204-43.507-19.42-65.397
 		c-12.322-13.745-29.69-20.714-51.634-20.714l-0.792,0.003c-6.567,0.05-12.762,0.622-18.59,1.663
 		C129.77,2.961,119.828-0.632,109.53,0.091c-8.989,0.642-17.939,4.567-25.565,11.141C78.744,10.794,55.527,9.834,39.291,24.2
@@ -288,44 +267,44 @@ Health
 		C137.424,170.818,119.174,152.235,112.406,129.808z M199.454,277.66c-34.966,6.148-88.598,7.701-147.663-18.646
 		c2.567-23.425,22.142-60.529,39.649-60.529h16.25c0,26,21.636,48.23,48.23,48.23c26.595,0,48.23-22.23,48.23-48.23h14.866
 		c17.564,0,37.208,37.344,39.673,60.756C250.111,263.359,228.933,272.476,199.454,277.66z"/>
-                                                <path style={{ fill: 'white' }}  d="M208.127,235.485c-4.297,0-7.779,3.703-7.779,8c0,4.297,3.482,8,7.779,8h21.781c4.297,0,7.779-3.703,7.779-8 c0-4.297-3.482-8-7.779-8H208.127z"/>
-                                            </g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                            <g></g>
-                                        </svg>
-                                        Adolescent
-                                    </button>
-                                </li>
-                            </ul>
+                                                    <path style={{ fill: 'white' }} d="M208.127,235.485c-4.297,0-7.779,3.703-7.779,8c0,4.297,3.482,8,7.779,8h21.781c4.297,0,7.779-3.703,7.779-8 c0-4.297-3.482-8-7.779-8H208.127z" />
+                                                </g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                                <g></g>
+                                            </svg>
+                                            Adolescent
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+
+                        <div
+                            className='sm:px-6 md:px-5 my-2 m-5  p-5  w-full md:max-w-2xl h-64 md:h-80 relative rounded-xl px-5 '>
+                            <Image src="/images/outreach1.png" alt="Naa-Adole Foundaltion Outreach" layout="fill" className="rounded-xl px-5" objectFit="cover" />
+
+                        </div>
+
                     </div>
-
-                    <div
-                        className='sm:px-6 md:px-5 my-2 m-5  p-5  w-full md:max-w-2xl h-64 md:h-80 relative rounded-xl px-5 '>
-                        <Image src="/images/outreach1.png" alt="Naa-Adole Foundaltion Outreach" layout="fill"  className="rounded-xl px-5" objectFit="cover"/>
-
-                    </div>
-
                 </div>
-            </div>
 
-        </section>
-        <Mandate />
-</>
-        
+            </section>
+            <Mandate />
+        </>
+
 
     )
 }
