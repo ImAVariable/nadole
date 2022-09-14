@@ -4,32 +4,35 @@ import styles from '../styles/Home.module.css'
 import Mandate from './components/mandate'
 
 export default function Home() {
+
+    const sectionCssBlock = `py-10 md:py-16 px-5 bg-gray-200 dark:bg-slate-800 font-[lato] block  min-h-[60vh]`
+
     return (
         <>
-            <section className=" w-full bg-gray-300 dark:bg-slate-800">
-                <div className="w-auto mx-auto md:px-5  py-32 overflow-hidden px-2">
 
-                    <div
-                        className='flex flex-col md:flex-row md:justify-between items-center h-full w-full'>
 
-                        <div>
-                            <div className='  px-4 sm:px-6 md:px-5 mb-6 text-left max-w-3xl '>
+            <section className={sectionCssBlock}>
+                <div className=" md:px-5 py-16 md:py-32 mx-5 px-5">
+
+                    <div className='flex flex-col md:flex-row md:justify-between items-center h-full w-full'>
+
+                        <div className='flex-1'>
+                            <div className='  md:px-5 mb-6 text-left '>
 
                                 <h2 className="mt-8 font-semibold text-pink-500 dark:text-pink-400">Who we are
                                 </h2>
-                                <p
-                                    className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ">Why Education, Health
+                                <p className="mt-4 text-3xl text-slate-900 font-bold  dark:text-slate-50 ">Why Education, Health
                                     <br />
                                     and Adolescent Empowerment ?
                                 </p>
-                                <p className="mt-4  space-y-6 dark:text-white text-left   ">With the help of its
+                                <p className="mt-4   dark:text-white">With the help of its
                                     extensive network of NGOs, affiliates from business, colleges, and governmental
                                     and intergovernmental organizations, Naa-Adole Foundation has emerged as a
                                     visionary in the fight against pressing global concerns. To That effect, we
                                     welcome partnerships from all concerned.</p>
                             </div>
 
-                            <div className="mx-auto flex justify-start items-center ">
+                            <div className="flex justify-between items-center ">
                                 <ul
                                     className="flex-none inline-grid gap-x-2 px-4 sm:px-0 xl:gap-x-6 text-slate-500 "
                                     style={{
@@ -293,8 +296,12 @@ export default function Home() {
                         </div>
 
                         <div
-                            className='sm:px-6 md:px-5 my-2 m-5  p-5  w-full md:max-w-2xl h-64 md:h-80 relative rounded-xl px-5 '>
-                            <Image src="/images/outreach1.png" alt="Naa-Adole Foundaltion Outreach" layout="fill" className="rounded-xl px-5" objectFit="cover" />
+                            className='relative w-[95vw] md:flex-1 h-72 my-10 md:my-0 mx-4 '>
+                            <Image src="/images/outreach1.png"
+                                alt="Naa-Adole Foundaltion Outreach"
+                                layout="fill"
+                                className="rounded-xl "
+                                objectFit="cover" />
 
                         </div>
 
