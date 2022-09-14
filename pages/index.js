@@ -6,11 +6,11 @@ import Mandate from './components/mandate'
 export default function Home() {
     return (
         <>
-            <section className="w-full bg-gray-300 dark:bg-slate-800">
-                <div className="w-auto mx-auto md:px-5  py-32">
+            <section className=" w-full bg-gray-300 dark:bg-slate-800">
+                <div className="w-auto mx-auto md:px-5  py-32 overflow-hidden px-2">
 
                     <div
-                        className='flex flex-col md:flex-row md:justify-between items-center h-full w-auto'>
+                        className='flex flex-col md:flex-row md:justify-between items-center h-full w-full'>
 
                         <div>
                             <div className='  px-4 sm:px-6 md:px-5 mb-6 text-left max-w-3xl '>

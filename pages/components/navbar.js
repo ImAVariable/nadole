@@ -35,11 +35,11 @@ export default function Navbar() {
   return (
     <>
 
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-slate-900 shadow-lg md:w-full ">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+      <nav className="bg-white border-gray-200 px-2 lg:px-6 py-2.5 dark:bg-slate-900 shadow-lg md:w-full ">
+        <div className="flex justify-between items-center mx-auto max-w-screen-xl">
           <Link href="/"><a className="flex items-center">
             <Logo />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Naa-Adole Foundation&trade;</span>
+            <span className="self-center text-sm font-semibold whitespace-nowrap dark:text-white">Naa-Adole Foundation&trade;</span>
           </a>
           </Link>
           {/* Menu items */}
