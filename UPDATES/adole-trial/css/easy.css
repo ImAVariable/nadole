@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+button,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.logo, .special-text {
+    font-family: 'Pacifico', cursive;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullcontainer{
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 100;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .container .logo {
+    padding: 1rem 0;
+    height: 100px;
+}
+
+header .container .logo img{
+    height: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    display: inline-block;
+    height: 75px;
+    line-height: 1.8;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+
+
+
+

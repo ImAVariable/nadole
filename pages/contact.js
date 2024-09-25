@@ -30,6 +30,117 @@ export default function Contact() {
         </div>
     </section> 
 
+    <section className="flex justify-center items-center my-10">
+      <div className="form-container max-w-xl w-full p-10 bg-white shadow-lg rounded-xl relative">
+        {/* Background Circles */}
+        <span className="circle one absolute bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 w-48 h-48 rounded-full -top-28 -right-28 z-0"></span>
+        <span className="circle two absolute bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 w-48 h-48 rounded-full -bottom-28 -left-28 z-0"></span>
+
+        {/* Contact Form */}
+        <div className="contact-form relative z-10">
+          <h3 className="title text-4xl font-bold text-center text-gray-700 mb-6">
+            Contact Us | Naa-Adole Foundation
+          </h3>
+
+          <form action="submit_form.php" method="POST">
+            {/* Name */}
+            <div className="input-container mb-6">
+              <label htmlFor="name" className="block text-xl font-semibold text-gray-600 mb-2">
+                Name:
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="input w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-300 transition ease-in-out"
+                required
+              />
+            </div>
+
+            {/* Email */}
+            <div className="input-container mb-6">
+              <label htmlFor="email" className="block text-xl font-semibold text-gray-600 mb-2">
+                Email Address:
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="input w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-300 transition ease-in-out"
+                required
+              />
+            </div>
+
+            {/* Phone (optional) */}
+            <div className="input-container mb-6">
+              <label htmlFor="phone" className="block text-xl font-semibold text-gray-600 mb-2">
+                Phone Number (optional):
+              </label>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                className="input w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-300 transition ease-in-out"
+              />
+            </div>
+
+            {/* Subject */}
+            <div className="input-container mb-6">
+              <label htmlFor="subject" className="block text-xl font-semibold text-gray-600 mb-2">
+                Subject:
+              </label>
+              <select
+                id="subject"
+                name="subject"
+                className="input w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:ring-2 focus:ring-indigo-300 transition ease-in-out"
+                required
+              >
+                <option value="general">General Inquiry</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="donation">Donations</option>
+                <option value="partnership">Partnerships</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            {/* Message */}
+            <div className="input-container mb-6">
+              <label htmlFor="message" className="block text-xl font-semibold text-gray-600 mb-2">
+                Message:
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                className="input w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:ring-2 focus:ring-indigo-300 transition ease-in-out"
+                required
+                rows="5"
+              ></textarea>
+            </div>
+
+            {/* Reference */}
+            <div className="input-container mb-6">
+              <label htmlFor="reference" className="block text-xl font-semibold text-gray-600 mb-2">
+                How did you hear about us?
+              </label>
+              <input
+                type="text"
+                id="reference"
+                name="reference"
+                className="input w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-300 transition ease-in-out"
+              />
+            </div>
+
+            {/* Submit Button */}
+            <input
+              type="submit"
+              value="Submit"
+              className="w-full py-4 bg-indigo-600 text-white font-bold text-xl rounded-full hover:bg-pink-500 transition-transform transform hover:-translate-y-1 shadow-md hover:shadow-lg"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
     <section className = '' > 
     <div className='dark:bg-slate-700 block py-16 md:py-32'>
         <div className='container p-5 mx-auto flex flex-col md:flex-row md:justify-center md:items-center  h-full'>

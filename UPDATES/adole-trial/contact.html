@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naa Adole Foundation</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="shortcut icon" href="./images/favicon.ico" id="fav">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://kit.fontawesome.com/dffcb03909.js" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <section class="main-contanier">
+                <div class="logo-container">
+                    <a href="index.html" class="logo">
+                        <img src="images/naa-logo copy.png" alt="naa-adole-logo">
+                        <span>Naa Adole Foundation™</span>
+                    </a>
+                </div>
+            
+                <div class="header">
+                    <nav class="navbar">
+                        <a href="index.html">Home</a>
+                        <a href="whatwedo.html">What We Do</a>
+                        <a href="news&event.html">News & Events</a>
+                        <a href="volunteer.html">Volunteers</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            
+                <div class="buttons">
+                    <a href="donation.html"><button>Donate</button></a>
+                    <div class="fas fa-lightbulb" id="cart-btn"></div>
+                </div>
+            </section>
+
+            <section class="form-container">
+                <div class="form">
+                    <div class="contact-info">
+                    </div>
+                    <div class="contact-form">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+
+                        <form action="submit_form.php" method="POST">
+
+                            <h3 class="title">Contact Us | Naa-Adole Foundation</h3>
+
+                            <div class="input-container">
+                                <label for="name">Name:</label>
+                                <input type="text" class="input" id="name" name="name" required>
+                            </div>
+
+                            <div class="input-container">
+                                 <label for="email">Email Address:</label>
+                                 <input type="email" class="input" id="email" name="email" required>
+                            </div>
+
+                            <div class="input-container">
+                                 <label for="phone">Phone Number (optional):</label>
+                                <input type="text" class="input" id="phone" name="phone">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="subject">Subject:</label>
+                                <select id="subject" name="subject" required>
+                                <option value="general">General Inquiry</option>
+                                <option value="volunteer">Volunteering</option>
+                                <option value="donation">Donations</option>
+                                <option value="partnership">Partnerships</option>
+                                <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="input-container textarea">
+                                <label for="message">Message:</label>
+                                <textarea class="input" id="message" name="message" required></textarea>
+                            </div>
+
+                            <div class="input-contanier question">
+                                <label for="reference">How did you hear about us?</label>
+                                <input type="text" class="input" id="reference" name="reference">
+                            </div>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </header>
